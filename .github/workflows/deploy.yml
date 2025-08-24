@@ -4,7 +4,11 @@ name: Build and deploy GH Pages
 jobs:
   build:
     runs-on: ubuntu-latest
+<<<<<<< HEAD
     if: github.ref == 'refs/heads/master'
+=======
+    if: github.ref == 'refs/heads/gh_action'
+>>>>>>> gh_action
     steps:
       - name: checkout
         uses: actions/checkout@v4
