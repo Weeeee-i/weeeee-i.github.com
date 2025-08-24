@@ -5,9 +5,13 @@ base_url = "https://example.com"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+build_search_index = false
 
 generate_feeds = true
+
+default_language = "zh_CN"
+
+theme = "linkita"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -16,3 +20,6 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+comment = true
+math = true
+mermain = true
